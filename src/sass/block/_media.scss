@@ -1,0 +1,25 @@
+@media ( max-width: 767px ){
+    .header{
+        padding: 0 30px;
+        flex-wrap: wrap;
+    }
+    .promo__wrapper{
+        align-items:center
+    }
+
+    .advantages__item{
+        height: 230px;
+    }
+}
+@media ( max-width: 575px ){
+    .header{
+        padding: 0 30px;
+
+        
+        &__contacts{
+            display: block;
+            align-items:right;
+        }
+    }
+
+}
