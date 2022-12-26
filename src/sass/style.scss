@@ -5,7 +5,8 @@
 }
 
 .container{
-    max-width: 950px;
+    max-width: 990px;
+    padding:0 20px 0 20px;
     margin: 0 auto;
 }
 
@@ -13,4 +14,7 @@
 @import "block/_header.scss";
 @import "block/_buttons.scss";
 @import "block/_advantages.scss";
+@import "block/_consultation.scss";
+@import "block/_titles.scss";
+@import "block/_forms.scss";
 @import "block/_media.scss";
