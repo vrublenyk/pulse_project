@@ -25,8 +25,7 @@ $(document).ready(function(){
               breakpoint: 575,
               settings: {
                 dots: true,
-                arrows:false,
-                infinite:true
+                arrows:false
               }
             }
         ]

@@ -83,8 +83,9 @@
 }
 @media ( max-width: 575px ){
     .header{
+        align-items: flex-end;
         &__logo{
-            width: 150px;
+            width: 180px;
         }
         &__official{
             display: none;
