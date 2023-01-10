@@ -30,6 +30,31 @@
         }
 
     }
+    .catalog{
+        &__tab{
+            font-size: 16px;
+        }
+        &__content{
+            justify-content: center;
+        }
+        &-item{
+            margin: 10px 10px;
+        }
+    }
+    .rewiew{
+        .title{
+            font-size: 26px;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+        &__title{
+            font-size: 16px;
+        }
+        &__subtitle{
+            font-size: 11px;
+        }
+    }
 }
 
 @media ( max-width: 767px ){
@@ -78,6 +103,38 @@
         }
         &__img{
             width: 100%;
+        }
+    }
+    .catalog{
+        .title{
+            font-size: 22px;
+        }
+        &__tab{
+            width: 150px;
+            height: 50px;
+        }
+    }
+    .rewiew{
+        .title{
+            font-size: 24px;
+        }
+        &__item{
+            flex-direction: column;
+        }
+        &__descr{
+            font-size: 13px;
+            text-align: center;
+        }
+        &__img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        &__title{
+            font-size: 15px;
+        }
+        &__subtitle{
+            font-size: 10px;
         }
     }
 }
@@ -162,6 +219,22 @@
         }
         &__img{
             width: 100%;
+        }
+    }
+    .catalog{
+        &__tab{
+            line-height: 20px;
+        }
+    }
+    .rewiew{
+        .title{
+            font-size: 20px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+        &__title{
+            font-size: 14px;
         }
     }
 }
