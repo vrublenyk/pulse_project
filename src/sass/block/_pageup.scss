@@ -1,0 +1,18 @@
+.pageup{
+    width: 40px;
+    height: 40px;
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 100%;
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 3px 3px 15px $main-color;
+    }
+}
+.fa-circle-chevron-up{
+    font-size: 40px;
+    color: $main-color;
+}
