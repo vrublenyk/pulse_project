@@ -164,7 +164,7 @@
     .header{
         align-items: flex-end;
         &__logo{
-            width: 180px;
+            width: 150px;
         }
         &__official{
             display: none;
@@ -281,6 +281,27 @@
             line-height: 14px;
         }
     }
+    .modal{
+        width: 260px;
+        padding: 18px 20px 20px 20px;
+        &_form{
+            width: 220px;
+        }
+        &__close{
+            right:-25px;
+        }
+        &__subtitle{
+            font-size: 13px;
+        }
+        &__descr{
+            font-size: 11px;
+        }
+        &_button{
+            font-size: 14px;
+        }
+        
+    }
+    
 }
 
 

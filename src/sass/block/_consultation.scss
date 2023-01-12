@@ -9,4 +9,16 @@
         line-height: 30px;
         color: #FFFFFF;
     }
+    .error{
+        border:1px solid $main-color;
+        box-shadow: 1px 1px 8px $main-color;
+        text-align: center;
+    }
+    label.error{
+        color:#FFFFFF;
+        border:none;
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
+   
 }

@@ -34,4 +34,9 @@
             color:$main-color;
         }
     }
+    &__icon{
+        &_animated{
+            animation:heartbeat 2s ease infinite;
+        }
+    }
 }

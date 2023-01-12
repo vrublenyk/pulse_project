@@ -1,4 +1,5 @@
 @import "base/_variables.scss" ;
+@import "base/_animations.scss" ;
 
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -21,4 +22,6 @@
 @import "block/_catalog.scss";
 @import "block/_rewiew.scss";
 @import "block/_footer.scss";
+@import "block/_modal.scss";
+@import "block/_pageup.scss";
 @import "block/_media.scss";
